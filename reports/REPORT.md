@@ -1,6 +1,6 @@
 # Lab 25B — Report
 
-**Họ tên / nhóm:** Nguyen Cong Duan / chưa có thông tin nhóm  
+**Họ tên / nhóm:** Nguyễn Công Duẩn - 2A202602716 / P-136 Soul
 **Commit report/scoreboard:** `e3622326902a57e906a3e7c6dd22efea493bed00` (kết quả grader seeds 25–27; metadata được ghi nhận ở commit kế tiếp)
 **Điểm tự động (`make grade`):** 84/88 trên grader công khai, seeds 25–27; 4 điểm SLO ẩn do giảng viên chấm. Phần report/postmortem chấm tay: tối đa 12 điểm.
 
