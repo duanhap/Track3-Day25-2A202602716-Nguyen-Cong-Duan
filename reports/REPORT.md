@@ -2,7 +2,7 @@
 
 **Họ tên / nhóm:** Nguyen Cong Duan / chưa có thông tin nhóm  
 **Commit nộp:** Chưa tạo commit cuối; cập nhật sau khi chốt bài ở Part 9  
-**Điểm tự động (`make grade`):** Chưa chạy; để dành cho bước chấm cuối ở Part 9
+**Điểm tự động (`make grade`):** 84/88 trên grader công khai, seed 25; 4 điểm SLO ẩn do giảng viên chấm. Phần report/postmortem chấm tay: tối đa 12 điểm.
 
 Các số liệu Game Day lấy từ `reports/gameday/naive.json` và `reports/gameday/resilient.json` (seed 25); workflow và SLO lấy từ `reports/workflows.json` và `reports/slo.json`. Các thí nghiệm tùy biến chạy lại cùng simulator, cùng seed và chỉ thay đổi cấu hình được nêu ở từng mục.
 
