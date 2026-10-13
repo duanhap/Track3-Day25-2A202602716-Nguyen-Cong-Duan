@@ -1,7 +1,7 @@
 # Lab 25B — Report
 
 **Họ tên / nhóm:** Nguyễn Công Duẩn - 2A202602716 / P-136 Soul
-**Commit report/scoreboard:** `e3622326902a57e906a3e7c6dd22efea493bed00` (kết quả grader seeds 25–27; metadata được ghi nhận ở commit kế tiếp)
+**Commit report/scoreboard:** `1bc7c0ac9f1229b6abab3c9cfc7a4ba1d1ae4250` (kết quả grader seeds 25–27; metadata được ghi nhận ở commit kế tiếp)
 **Điểm tự động (`make grade`):** 84/88 trên grader công khai, seeds 25–27; 4 điểm SLO ẩn do giảng viên chấm. Phần report/postmortem chấm tay: tối đa 12 điểm.
 
 Các số liệu Game Day lấy từ `reports/gameday/naive.json` và `reports/gameday/resilient.json` (seed 25); workflow và SLO lấy từ `reports/workflows.json` và `reports/slo.json`. Các thí nghiệm tùy biến chạy lại cùng simulator, cùng seed và chỉ thay đổi cấu hình được nêu ở từng mục.
