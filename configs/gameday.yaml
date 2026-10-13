@@ -28,7 +28,7 @@ fallback_order: [alpha, alpha-eu, beta, gamma-mini]
 # YOUR client settings (read by ResilientClient). Tune them, explain them.
 # ----------------------------------------------------------------------------
 client:
-  attempt_timeout_s: 8.0
+  attempt_timeout_s: 6.0            # cap a hung attempt while leaving time to fail over within the 30 s turn
   max_attempts_per_provider: 2      # 1 retry on the same provider, then fail over
   min_time_left_s: 1.0              # don't start an attempt that cannot finish
   backoff_base_s: 0.25
@@ -38,8 +38,8 @@ client:
   retry_budget_max_tokens: 20
   quota_cooldown_s: 300
   breaker:
-    window_size: 20
-    min_calls: 10
+    window_size: 10                  # keep health decisions focused on recent provider behavior
+    min_calls: 5                     # detect sustained incidents before retries amplify the load
     failure_rate_threshold: 0.5
     slow_call_s: 5.0
     slow_rate_threshold: 0.6
